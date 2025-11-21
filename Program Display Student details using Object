@@ -1,0 +1,21 @@
+package selenium;
+
+public class Display_Student_details_object {		
+		int Sl= 100;
+		String Name="Carlin";
+		int grade =5;
+		String Location = "Chennai";	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Display_Student_details_object student = new Display_Student_details_object();
+		System.out.println("The serial Number is :"+student.Sl);
+		System.out.println("The Name is :"+student.Name);
+		System.out.println("The Grade is :"+student.grade);
+		System.out.println("The Location is :"+student.Location);
+		
+	}
+
+}

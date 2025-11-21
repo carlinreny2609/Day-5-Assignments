@@ -1,0 +1,22 @@
+package selenium;
+
+public class Parameterized_constructor_for_Transport {
+
+	public String Airway;
+	public String road;
+
+	public Parameterized_constructor_for_Transport(String road, String airway, String Seaways) {
+		// TODO Auto-generated constructor stub
+
+		System.out.println("The transport is available is " + road + '\n' + airway + '\n' + Seaways);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Parameterized_constructor_for_Transport Transport = new Parameterized_constructor_for_Transport("Verna",
+				"Indigo Flight", "Cruise");
+
+	}
+
+}

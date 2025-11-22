@@ -1,0 +1,45 @@
+package selenium;
+
+import java.util.Scanner;
+
+public class BankAccount_Deposit_Withdraw {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Enter the Amount to deposit :");
+		int depositamount = scan.nextInt();
+		System.out.print("Enter the Amount to withdraw:");
+		int withdrawamount = scan.nextInt();
+		scan.close();
+
+		// TODO Auto-generated method stub
+
+		Scanner scan1 = new Scanner(System.in);
+		scan1.close();
+
+		BankAccount_Deposit_Withdraw object = new BankAccount_Deposit_Withdraw();
+
+		object.Deposit(depositamount);
+
+		BankAccount_Deposit_Withdraw object1 = new BankAccount_Deposit_Withdraw();
+
+		object1.Withdraw(withdrawamount);
+
+	}
+
+	private void Withdraw(int depositamount) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Withdrawal of " + depositamount + "  Successful..");
+
+	}
+
+	private void Deposit(int withdrawamount) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Deposit of " + withdrawamount + " successful");
+
+	}
+
+}
